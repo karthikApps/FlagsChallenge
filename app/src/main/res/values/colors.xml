@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_toolbar">#FF000000</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="questionBtn">#000000</color>
+    <color name="wrongBtn">#F44336</color>
+    <color name="correctBtn">#4CAF50</color>
+    <color name="whiteBtnBorder">#FFFFFF</color>
+</resources>

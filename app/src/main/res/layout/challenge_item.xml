@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imgFlag"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textCount"
+            android:text="10"
+            android:visibility="gone"
+            android:textColor="@color/wrongBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/question_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selectCountry"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/imgFlag"
+            app:layout_constraintTop_toBottomOf="@id/imgFlag" />
+
+        <Button
+            android:id="@+id/ans_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Q 1"
+            android:background="@drawable/button_outline"
+            app:layout_constraintTop_toBottomOf="@id/question_tv"
+            app:layout_constraintEnd_toStartOf="@+id/ans_2"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Second Button (Row 1, Column 2) -->
+        <Button
+            android:id="@+id/ans_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Q 2"
+            android:background="@drawable/button_outline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ans_1"
+            app:layout_constraintTop_toTopOf="@id/ans_1"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Third Button (Row 2, Column 1) -->
+        <Button
+            android:id="@+id/ans_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Q 3"
+            android:background="@drawable/button_outline"
+            app:layout_constraintEnd_toStartOf="@+id/ans_4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ans_1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Fourth Button (Row 2, Column 2) -->
+        <Button
+            android:id="@+id/ans_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Q 4"
+            android:background="@drawable/button_outline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ans_3"
+            app:layout_constraintTop_toTopOf="@id/ans_3"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

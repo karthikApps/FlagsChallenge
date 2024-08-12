@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FlagChallenge" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/whiteBtnBorder</item>
+        <item name="colorControlHighlight">@color/whiteBtnBorder</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FlagChallenge" parent="Base.Theme.FlagChallenge" />
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FlagChallenge</string>
+    <string name="headerTitle">Flags Challenge</string>
+    <string name="gameOver">Game Over</string>
+    <string name="txtHint">Enter time (in hh:mm:ss)</string>
+    <string name="txtSave">Save</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Let\'s Begin</string>
+    <string name="second_fragment_label">Quiz</string>
+    <string name="next">00:00:00</string>
+    <string name="previous">Previous</string>
+    <string name="selectCountry">Guess the Country by the Flag</string>
+</resources>
